@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://raw.githubusercontent.com/BenedettaRombola/Svolta/main/lung'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice2.js'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
@@ -52,7 +52,7 @@ define(['pipAPI', 'https://raw.githubusercontent.com/BenedettaRombola/Svolta/mai
 			media : [ //Stimuli
 				{word: 'Allegria'},
 				{word: 'Amore'},
-				{word: 'Felicit‡'},
+				{word: 'Felicit√†'},
 				{word: 'Simpatia'},
 				{word: 'Pace'},
 				{word: 'Paradiso'}
@@ -62,7 +62,7 @@ define(['pipAPI', 'https://raw.githubusercontent.com/BenedettaRombola/Svolta/mai
 			},
 
   base_url : {//Where are your images at?
-    image : 'C:\Users\utente\Desktop\TESI\Immagini IAT\Test' 
+    image : 'https://benedettarombolaunipd.github.io' 
   }}
   );
   });
