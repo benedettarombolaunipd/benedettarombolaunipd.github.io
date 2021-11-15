@@ -67,7 +67,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 				media : [ //Stimuli
 					{word: 'Allegria'},
 					{word: 'Amore'},
-					{word: 'Felicit‡'},
+					{word: 'Felicit√†'},
 					{word: 'Simpatia'},
 					{word: 'Pace'},
 					{word: 'Paradiso'}
@@ -134,7 +134,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			switchSideBlock : 4, //By default, we switch on block 4 (i.e., after blocks 2 and 3 showed the first pairing condition).
 
 			base_url : {//Where are your images?
-				image : 'C:\Users\utente\Desktop\TESI\Immagini IAT\Test'
+				image : 'https://benedettarombolaunipd.github.io'
 			}, 
 			ITIDuration : 250, //Duration between trials.
 			
