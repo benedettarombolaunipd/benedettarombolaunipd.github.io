@@ -134,7 +134,7 @@ define(['pipAPI','pipScorer','underscore'], function(APIConstructor, Scorer, _) 
 			switchSideBlock : 4, //By default, we switch on block 4 (i.e., after blocks 2 and 3 showed the first pairing condition).
 
 			base_url : {//Where are your images?
-				image : 'https://benedettarombolaunipd.github.io'
+				image : 'https://benedettarombolaunipd.github.io/image'
 			}, 
 			ITIDuration : 250, //Duration between trials.
 			
