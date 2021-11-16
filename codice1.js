@@ -62,7 +62,7 @@ define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice2.js'], functio
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://benedettarombolaunipd.github.io' 
+    image : 'https://benedettarombolaunipd.github.io/image' 
   }}
   );
   });
