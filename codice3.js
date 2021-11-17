@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice3.js'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice4.js'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
