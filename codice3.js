@@ -1,22 +1,21 @@
-define(['pipAPI', 'https://raw.githubusercontent.com/BenedettaRombola/Svolta/main/lung'], function(APIConstructor, stiatExtension){
+define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice3.js'], function(APIConstructor, stiatExtension){
 	
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
 		    name : 'Femminismo', //Will appear in the data.
 		    title : {
-		      media : {word : 'Femminismo'}, //Name of the category presented in the task.
+		      media : {word : 'Parità di genere'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
-		    media : [ //Stimuli 
+		    media : [ //Stimuli content as PIP's media objects
     		    	{image : 'paritadigenere1.jpg'}, 
     			{image : 'paritadigenere2.jpg'}, 
     			{image : 'paritadigenere3.jpg'}, 
     			{image : 'paritadigenere4.jpg'}, 
     			{image : 'paritadigenere5.jpg'}, 
     			{image : 'paritadigenere6.jpg'}
-			
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -52,7 +51,7 @@ define(['pipAPI', 'https://raw.githubusercontent.com/BenedettaRombola/Svolta/mai
 			media : [ //Stimuli
 				{word: 'Allegria'},
 				{word: 'Amore'},
-				{word: 'Felicit�'},
+				{word: 'Felicità'},
 				{word: 'Simpatia'},
 				{word: 'Pace'},
 				{word: 'Paradiso'}
@@ -62,7 +61,7 @@ define(['pipAPI', 'https://raw.githubusercontent.com/BenedettaRombola/Svolta/mai
 			},
 
   base_url : {//Where are your images at?
-    image : 'C:\Users\utente\Desktop\TESI\Immagini IAT\Test' 
+    image : 'https://benedettarombolaunipd.github.io/image'
   }}
   );
   });
