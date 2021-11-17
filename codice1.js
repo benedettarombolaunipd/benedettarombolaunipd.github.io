@@ -9,14 +9,13 @@ define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice2.js'], functio
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
 		      height : 7 //Used to position the "Or" in the combined block.
 		    }, 
-		    media : [ //Stimuli 
+		    media : [ //Stimuli content as PIP's media objects
     		    	{image : 'paritadigenere1.jpg'}, 
     			{image : 'paritadigenere2.jpg'}, 
     			{image : 'paritadigenere3.jpg'}, 
     			{image : 'paritadigenere4.jpg'}, 
     			{image : 'paritadigenere5.jpg'}, 
     			{image : 'paritadigenere6.jpg'}
-			
 		    ], 
 		    //Stimulus css (style)
 		    css : {color:'#31b404','font-size':'3em'}
@@ -62,7 +61,7 @@ define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice2.js'], functio
 			},
 
   base_url : {//Where are your images at?
-    image : 'https://benedettarombolaunipd.github.io/image' 
+    image : 'https://benedettarombolaunipd.github.io/image'
   }}
   );
   });
