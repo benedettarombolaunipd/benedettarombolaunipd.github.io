@@ -3,7 +3,7 @@ define(['pipAPI', 'https://benedettarombolaunipd.github.io/codice4.js'], functio
 	var API = new APIConstructor();
 		  return stiatExtension({
 		  category : { 
-		    name : 'Femminismo', //Will appear in the data.
+		    name : 'Parità di genere', //Will appear in the data.
 		    title : {
 		      media : {word : 'Parità di genere'}, //Name of the category presented in the task.
 		      css : {color:'#31b404','font-size':'2em'}, //Style of the category title.
